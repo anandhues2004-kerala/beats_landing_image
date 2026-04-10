@@ -126,7 +126,7 @@ hover:bg-red-700
 
 ## 📸 Preview Sections
 
-[live]()
+
 
 ![img](./chrome-capture-2026-04-10%20(1).png)
 
