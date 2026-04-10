@@ -126,6 +126,12 @@ hover:bg-red-700
 
 ## 📸 Preview Sections
 
+[live]()
+
+![img](./chrome-capture-2026-04-10%20(1).png)
+
+
+
 * Hero Section (Main product highlight)
 * Brand Logos Section
 * Specifications Section
