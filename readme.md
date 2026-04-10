@@ -126,7 +126,7 @@ hover:bg-red-700
 
 ## 📸 Preview Sections
 
-
+[live]( https://anandhues2004-kerala.github.io/beats_landing_image/)
 
 ![img](./chrome-capture-2026-04-10%20(1).png)
 
