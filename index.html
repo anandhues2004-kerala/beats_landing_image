@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font ossam -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- google fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Michroma&family=Momo+Signature&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+
+    <title>Document</title> 
+</head>
+<script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+                fonts:["Montserrat", "sans-serif"] ,
+                fonds:[ "Michroma"," sans-serif"],
+                foont:["Inter", "sans-serif"] 
+
+            },
+          },
+        },
+      };
+    </script>
+ 
+<body>
+    <main class="bg-black min-h-screen lg:px-30 px-10 text-white overflow-hidden ">
+       
+         <nav class="flex justify-between ">
+            
+            
+                 <img src="./Photos/beatsLogo.png" alt="" class="h-[40px] mt-10">
+                 
+          
+                <ul class="flex flex-row text-white lg:gap-20 mt-10 text-2xl gap-10  px-10  font-poppins ">
+                <li class="cursor-pointr  hover:underline hidden  lg:flex">Home</li>
+                <li class="cursor-pointr  hover:underline hidden  lg:flex">specs</li>
+                <li class="cursor-pointr  hover:underline hidden  lg:flex">case</li>
+                <li class="cursor-pointr  hover:underline hidden  lg:flex">products</li>
+                <button class="bg-stone-800 h-8 w-15 rounded-md hidden  lg:flex">shop</button>
+            </ul>
+           
+            
+            <span class="lg:hidden mt-10 text-2xl">
+                    <i class="fa-solid fa-bars" style="color: rgb(236, 236, 233);"></i>
+                </span>
+          
+
+        </nav>
+        <img src="./Photos/mainImage.png" alt="" class=" h-[400px] lg:h-[600px] h-[400px] hidden lg:flex absolute top-0 xl:left-60 left-40 ">
+
+        <!-- next section -->
+            <section class="flex justify-between md:px-30 px-10  gap-10 ">
+                <div class="lg:w-1/2"></div>
+        
+              <div class="flex flex-col justify-center  text-white gap-6">
+                <span class="flex justify-center">
+                     <img src="./Photos/onEar.png" alt="" class="mt-10" >
+
+
+                </span>
+               <span ></span>
+                <h1 class="text-4xl font-bold ">Beats 3</h1>
+                <h1 class="text-white text-bold text-2xl">overview</h1>
+                <p class="w-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur id vitae debitis iste. Rerum, saepe ipsam! Repudiandae ipsam quae error!</p>
+                
+                       <button class=" lg:w-1/3  bg-stone-800 h-10 text-center flex gap-6 px-6 py-2 rounded-md hover:bg-red-700 mb-20"><img src="./Icons/shoppingBag.png" alt=""> Add to Bag <span class="font-bold text-white">N399K</span></button>
+
+            
+             
+              
+            </div>
+                 
+        </section>
+       
+        <!-- 1st section -->
+         <section class="md:flex justify-between  px-20 flex flex-wrap gap-10">
+            <img src="./Photos/appleLogo.png" alt="" class="">
+            <img src="./Photos/spotifyLogo.png" alt="" class="mt-5">
+            <img src="./Photos/amazonLogo.png" alt="" class="mt-5">
+            <img src="./Photos/youtubeLogo.png" alt="" class="mt-5">
+           
+      
+
+         </section>
+         <!-- section 02 -->
+          
+            <span class="flex justify-center"> <img src="./Icons/specsLogo.png" alt="" class=" mt-10">
+            </span>
+            <secti on class="md:flex justify-between lg:px-80 flex flex-wrap">
+                 <span>
+                  <img src="./Photos/specsImage.png" alt="" class="md:hidden px-20">
+            </span>
+            <div class="flex  md:flex-col gap-10 mt-10 sm:flex-wrap    ">
+                <span class="md:px-20 text-white gap-6 ">
+                  <img src="./Icons/bluetooth.png" alt="" class="h-8 w-8 ">
+                  <h1 class="font-bold ">connection</h1>
+                  <p>Bluthooth v5.2</p>
+            </span>
+            <span class="md:px-10 text-white gap-6">
+                  <img src="./Icons/battery.png" alt="" class="h-8 w-8  ">
+                  <h1 class="font-bold">Battery</h1>
+                  <p>Duration 40h</p>
+            </span>
+            <span class="md:px-10 text-white gap-6">
+                  <img src="./Icons/charger.png" alt="" class="h-8 w-8 ">
+                  <h1 class="font-bold">Load</h1>
+                  <p>Fast charge 4.2-AAC</p>
+            </span>
+            <span class="md:px-20 text-white gap-6">
+                  <img src="./Icons/mic.png" alt="" class="h-8 w-8 ">
+                  <h1 class="font-bold">Microphone</h1>
+                  <p>support Apple siri <br> and google</p>
+            </span>
+    
+            </div>
+            <span>
+                  <img src="./Photos/specsImage.png" alt="" class="hidden md:flex mt-20">
+            </span>
+         
+           </secti>
+           
+           <!-- section 02 -->
+            <div class="flex justify-center py-10">
+                <img src="./Icons/caseLogo.png" alt="">
+            </div>
+            <section class="md:flex justify-between lg:px-40 px-20 gap-20" >
+                <img src="./Photos/caseImage.png" alt="">
+                <div class="text-white mt-20 flex flex-col gap-10 py-5 ">
+                   <p class="md:w-1/2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, repudiandae ad. Ducimus laudantium repellat dignissimos laboriosam id cum a mollitia?</p>
+                   
+                   <button class="bg-stone-800  h-10 lg:w-1/4 text-center flex gap-6 px-6 py-2 rounded-md hover:bg-red-700">
+                    <img src="./Icons/group.png" alt="">Moreinfo</button>
+
+                </div>
+
+
+            </section>
+            <!-- section 03 -->
+             <section class="container bg-stone-800  w-auto mt-10 md:flex justify-between lg:px-30 rounded-md ">
+                <div class="text-white px-10 py-10 ">
+                    <h1 class="text-2xl font-bold w-2/3 font-poppins ">Immerse yourself in your music</h1>
+                    <p class="mt-6 ">Buy Now Up to 40% off </p>
+                    <button class="bg-black h-10 w-40 flex px-5 py-2 gap-4 rounded-md mt-6 hover:bg-red-700">
+                        <img src="./Icons/shoppingBag.png" alt=""> Buy now
+                    </button>
+
+                </div>
+                <img src="./Photos/buyNowSectionImage.png" alt="">
+
+
+             </section>
+             <!-- section 04 -->
+              <div class="flex justify-center items-center">
+                <img src="./Icons/productLogo.png" alt="" class="mt-10">
+              </div>
+              <section class="flex justify-center">
+                <div class="container bg-black  w-1/2 px-5 py-10  flex  flex-wrap gap-10 mt-10 ">
+                   <div class="relative">
+                     <span class="container bg-stone-800 h-40 w-40 flex justify-between px-5 py-24 z-10 rounded-md">
+                        <h1 class="text-white font-bold mt-10" >Black <br>N299K</h1>
+                        <button class="bg-black h-10 w-10 px-2 rounded-md mt-10"><img src="./Icons/shoppingBag.png" alt="" class=""></button>
+                    </span>
+                     <img src="./Photos/black.png" alt="" class="h-[150px] absolute bottom-20  left-8  z-50 ">
+
+                   </div>
+                   
+                     <!-- 2nd container -->
+                      <div class="relative">
+                         <span class="container bg-stone-800  h-40 w-40 flex justify-between px-5 py-24 z-10 rounded-md">
+                        <h1 class="text-white font-bold mt-10" >Red Black <br>N299K</h1>
+                        <button class="bg-black h-10 w-10 px-2 rounded-md mt-10"><img src="./Icons/shoppingBag.png" alt="" class=""></button>
+                    </span>
+                     <img src="./Photos/redBlack.png" alt="" class="h-[150px] absolute bottom-20 left-8 z-50 ">
+
+                      </div>
+                    
+                     <!-- 3rd container -->
+                      <div class="relative">
+                        <span class="container bg-stone-800  h-40 w-40 flex justify-between px-5 py-24 z-10 rounded-md">
+                        <h1 class="text-white font-bold mt-10 " >NightBlack <br>N299K</h1>
+                        <button class="bg-black h-10 w-10 px-2 rounded-md mt-10"><img src="./Icons/shoppingBag.png" alt="" class=""></button>
+                    </span>
+                     <img src="./Photos/nightBlack.png" alt="" class="h-[150px] absolute bottom-20 left-8  z-50 ">
+                      </div>
+                      
+                     <!-- container 04 -->
+                      <div class="relative">
+                        <span class="container bg-stone-800  h-40 w-40 flex justify-between px-5 py-24 z-10 rounded-md">
+                        <h1 class="text-white font-bold mt-10" >Blue</h1>
+                        <button class="bg-black h-10 w-10 px-2 rounded-md mt-10"><img src="./Icons/shoppingBag.png" alt="" class=""></button>
+                    </span>
+                     <img src="./Photos/blue.png" alt="" class="h-[150px] absolute bottom-20 left-7   z-50 ">
+                        
+                      </div>
+                       
+                     <!-- conatainer 05 -->
+                      <div class="relative">
+                         <span class="container bg-stone-800  h-40 w-40 flex justify-between px-5 py-24 z-10 rounded-md">
+                        <h1 class="text-white font-bold mt-10" >twilight <br>Gray</h1>
+                        <button class="bg-black h-10 w-10 px-2 rounded-md mt-10"><img src="./Icons/shoppingBag.png" alt="" class=""></button>
+                    </span>
+                     <img src="./Photos/twilightGray.png" alt="" class="h-[150px] absolute bottom-20 left-7   z-10 ">
+                    </div>   
+
+                      </div>
+                      
+              </section>
+              <!-- last section -->
+               <section class="md:flex justify-between lg:px-10 py-10 flex flex-wrap font-poppins">
+                <img src="./Photos/beatsLogo.png" alt="" class="h-[40px]">
+                    <ul class="flex flex-col gap-2">
+                        <h1 class="font-bold text-2xl">products</h1>
+                        <li class="mt-2 cursor-pointer  hover:underline">Headphones</li>
+                        <li class="cursor-pointer  hover:underline">Earphones</li>
+                        <li class="cursor-pointer  hover:underline">Earbuds</li>
+                        <li class="cursor-pointer  hover:underline">Accesseries</li>
+                    </ul>
+                    <ul class="flex flex-col gap-2 mb-20 ">
+                        <h1 class="text-2xl font-bold ">support</h1>
+                        <li class="mt-2 cursor-pointer  hover:underline">product help</li>
+                        <li class="cursor-pointer hover:underline">register</li>
+                        <li class="cursor-pointer hover:underline">updates</li>
+                        <li class="cursor-pointer hover:underline">provides</li>
+
+                    </ul>
+                    <div class="flex flex-col gap-6">
+                        <span class="container bg-stone-800 h-15 w-60 rounded-md px-5 py-4 flex justify-between">
+                            <h1>Email</h1>
+                            <button class="bg-black h-8 w-30 rounded-md text-center flex gap-2 px-2 py-2"><img src="./Icons/rightArrow.png" alt="">Subscribe</button>
+                        </span>
+                        <div class="flex gap-4 mb-20 ">
+                            <button class="bg-stone-800 "><img src="./Icons/facebook.png" alt=""></button>
+                            <button class="bg-stone-800"><img src="./Icons/twitter.png" alt=""></button>
+                            <button class="bg-stone-800"><img src="./Icons/instagram.png" alt=""></button>
+                            <button class="bg-stone-800"><img src="./Icons/linkedin.png" alt="" class=""></button>
+                        </div>
+                    </div>
+                    <img src="./Icons/upArrow.png" alt="" class="h-[30px] ">
+                
+               </section>
+          
+
+
+    </main>
+    
+</body>
+</html>
